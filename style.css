@@ -11,16 +11,16 @@
 
 @font-face {
   font-family: Montserrat;
-  src: url(./Assets/Font/Montserrat-VariableFont_wght.ttf);
+  src: url(./Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: Montserrat-Black;
-  src: url(./Assets/Font/static/Montserrat-Black.ttf);
+  src: url(./Montserrat-Black.ttf);
 }
 
 body {
-  font-family: montserrat;
+  font-family: Montserrat;
 }
 
 .text-white {

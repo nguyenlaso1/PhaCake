@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 80px;
   padding: 0 40px;
   background-color: #CDF439;
 }
@@ -89,6 +89,10 @@ body {
   z-index: 4;
 }
 
+#header .header-left .logo img{
+  width: 132px;
+}
+
 .slide-show {
   width: 100%;
   overflow: hidden;
@@ -131,7 +135,7 @@ body {
 
 .index-item {
   border: 2px solid #004403;
-  padding: 8px;
+  padding: 4px;
   border-radius: 50%;
   margin: 0 10px;
 }
@@ -201,7 +205,7 @@ body {
 
 #homepage-content {
   background-image: url("Assets/Picture/bgimagenewart.png");
-  height: 4000px;
+  height: 4400px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -587,11 +591,11 @@ body {
 #homepage-content .taivengay {
   margin: auto;
   margin-top: 80px;
-  width: 82%;
+  width: 95%;
   background-color: rgba(233,244,199, 0.67);
-  height: 600px;
+  height: 800px;
   border-radius: 50px;
-  border: 10px solid #5CCB2A;
+  border: 5px solid #5CCB2A;
   position: relative;
   margin-bottom: 70px;  
 }
@@ -599,30 +603,89 @@ body {
 #homepage-content .taivengay-video {
   margin: auto;
   margin-top: 80px;
-  width: 82%;
+  width: 95%;
   background-color: rgba(233,244,199, 0.67);
-  height: 700px;
   border-radius: 50px;
-  border: 10px solid #5CCB2A;
+  border: 5px solid #5CCB2A;
   position: relative;
   margin-bottom: 70px;  
+  padding-bottom: 120px;
 }
 
-.taivengay-video video {
-  position: absolute;
-  right: 10%;
-  top: 20%;
-  border-radius: 30px;
+#homepage-content .taivengay-video .main {
+  justify-content: space-evenly;
+}
+
+#homepage-content .taivengay-video .main .content h5 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #004403;
+}
+
+#homepage-content .taivengay-video .main .infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#homepage-content .taivengay-video .main .infor-top {
+  justify-content: center;
+}
+
+#homepage-content .taivengay-video .main .infor-top .content {
+  text-align: center;
+  width: 150px;
+  padding: 20px 0;
+}
+
+#homepage-content .taivengay-video .main .infor-top .second {
+  border-left: 3px solid #004403;
+  border-right: 3px solid #004403;
+  width: 240px;
+}
+
+#homepage-content .taivengay-video .main .content p {
+  font-size: 15px;
+  color: #004403;
+}
+
+#homepage-content .taivengay-video .main .buttons {
+  margin-top: 35px;
+  justify-content: space-between;
+}
+
+#homepage-content .taivengay-video .main .tuongthich {
+  font-size: 15px;
+  text-align: center;
+  color: #004403;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+#homepage-content .taivengay-video .main .logo {
+  margin-right: 20px;
+}
+
+#homepage-content .taivengay-video h3 {
+  font-size: 35px;
+  font-family: Montserrat-Black;
+  font-weight: bold;
+  color: #004403;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 85px;
 }
 
 #homepage-content .taivengay-last {
   margin: auto;
   margin-top: 150px;
-  width: 82%;
+  width: 95%;
   background-color: rgba(233,244,199, 0.67);
   height: 900px;
   border-radius: 50px;
-  border: 10px solid #5CCB2A;
+  border: 5px solid #5CCB2A;
   position: relative;
 }
 
@@ -652,6 +715,7 @@ body {
 
 #homepage-content .fourth-content .tintuc {
   width: 30%;
+  height: 540px;
   border: 5px solid #337fff;
   border-radius: 30px;
   display: flex;
@@ -662,6 +726,7 @@ body {
 
 #homepage-content .fourth-content .thuvien {
   width: 30%;
+  height: 540px;
   border: 5px solid #853CD2;
   border-radius: 30px;
   display: flex;
@@ -672,6 +737,7 @@ body {
 
 #homepage-content .fourth-content .diendan {
   width: 30%;
+  height: 540px;
   border: 5px solid #FF0000;
   border-radius: 30px;
   display: flex;
@@ -683,50 +749,54 @@ body {
 #homepage-content .fourth-content .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 200px;
+  align-items: center;  
   width: 85%; 
-  margin-top: -20px;
-  justify-content: center;
   z-index: 1;
 }
 
 #homepage-content .fourth-content .tintuc a {
   background-color: #337fff;
-  height: 125px;
-  width: 85%;
-  border-radius: 30px;
+  width: 215px;
   position: absolute;
   margin-top: 20px;
   z-index: 0;
+  bottom: 45px;
+  height: 50px;
+  border-radius: 20px;
 }
 
 #homepage-content .fourth-content .thuvien a {
   background-color: #853CD2;
-  height: 125px;
-  width: 85%;
-  border-radius: 30px;
+  width: 215px;
   position: absolute;
   margin-top: 20px;
   z-index: 0;
+  bottom: 45px;
+  height: 50px;
+  border-radius: 20px;
 }
 
 #homepage-content .fourth-content .diendan a {
   background-color: #FF0000;
-  height: 125px;
-  width: 85%;
-  border-radius: 30px;
+  width: 215px;
   position: absolute;
   margin-top: 20px;
   z-index: 0;
+  bottom: 45px;
+  height: 50px;
+  border-radius: 20px;
 }
 
-#homepage-content .fourth-content .main-content:hover a {
+/* #homepage-content .fourth-content .main-content:hover a {
   animation: transition4 ease 0.5s both;
 }
 
 #homepage-content .fourth-content .main-content:hover .button-xemthem {
   animation: transitionbuttonxemthem ease 0.5s forwards;
+} */
+
+#homepage-content .fourth-content .main-content {
+  padding-top: 25px;
 }
 
 #homepage-content .fourth-content .main-content a{
@@ -736,7 +806,7 @@ body {
 #homepage-content .fourth-content .main-content .button-xemthem {
   color: #fff;
   font-size: 16px;
-  opacity: 0;
+  opacity: 1;
   font-weight: bold;
   text-align: center;
   line-height: 50px;
@@ -765,31 +835,35 @@ body {
   }
 }
 
+
 #homepage-content .fourth-content .tintuc h4 {
   font-size: 25px;
   color: #337fff;
   margin-top: 15px;
+  text-transform: uppercase;
 }
 
 #homepage-content .fourth-content .thuvien h4 {
   font-size: 25px;
   color: #853CD2;
   margin-top: 15px;
+  text-transform: uppercase;
 }
 
 #homepage-content .fourth-content .diendan h4 {
   font-size: 25px;
   color: #FF0000;
   margin-top: 15px;
+  text-transform: uppercase;
 }
 
 #homepage-content .fourth-content p.decs {
-  font-size: 12px;
+  font-size: 20px;
   color: #000;
-  width: 207px;
+  width: 215px;
   text-align: justify;
-  padding: 20px;
   padding-bottom: 80px;
+  margin-top: 40px;
 }
 
 #addtionhomepage .addtion1 {
@@ -1554,12 +1628,15 @@ body {
 .taivengay .taivengay-title .third-part-title,
 .tintuc-sukien .second-part .second-part-title {
   padding-bottom: 30px;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
-  width: 70%;
+  width: 720px;
   margin: 0 auto;
   color: #004403;
+}
 
+.gioithieu .third-part-title {
+  text-align: justify;
 }
 
 .tintuc-sukien .second-part .second-part-main {

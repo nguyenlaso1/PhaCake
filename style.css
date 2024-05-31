@@ -596,7 +596,7 @@ body {
 #homepage-content .taivengay {
   margin: auto;
   margin-top: 80px;
-  width: 95%;
+  width: 1080px;
   background-color: rgba(233,244,199, 0.67);
   height: 800px;
   border-radius: 50px;
@@ -608,17 +608,21 @@ body {
 #homepage-content .taivengay-video {
   margin: auto;
   margin-top: 80px;
-  width: 95%;
+  width: 1080px;
   background-color: rgba(233,244,199, 0.67);
   border-radius: 50px;
   border: 5px solid #5CCB2A;
   position: relative;
   margin-bottom: 70px;  
-  padding-bottom: 120px;
+}
+
+#homepage-content .taivengay-video video {
+  transform: translatey(-105px);
 }
 
 #homepage-content .taivengay-video .main {
   justify-content: space-evenly;
+  margin: 0 30px;
 }
 
 #homepage-content .taivengay-video .main .content h5 {
@@ -630,8 +634,10 @@ body {
 #homepage-content .taivengay-video .main .infor {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin-top: 20px;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  align-items: center;
+  transform: translateX(-50px);
 }
 
 #homepage-content .taivengay-video .main .infor-top {
@@ -641,13 +647,13 @@ body {
 #homepage-content .taivengay-video .main .infor-top .content {
   text-align: center;
   width: 150px;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 #homepage-content .taivengay-video .main .infor-top .second {
   border-left: 3px solid #004403;
   border-right: 3px solid #004403;
-  width: 240px;
+  width: 150px;
 }
 
 #homepage-content .taivengay-video .main .content p {
@@ -658,6 +664,11 @@ body {
 #homepage-content .taivengay-video .main .buttons {
   margin-top: 35px;
   justify-content: space-between;
+}
+
+#homepage-content .taivengay-video .main .button:hover {
+  transform: scale(1.1);
+  transition: .5s;
 }
 
 #homepage-content .taivengay-video .main .tuongthich {
@@ -686,7 +697,7 @@ body {
 #homepage-content .taivengay-last {
   margin: auto;
   margin-top: 150px;
-  width: 95%;
+  width: 1080px;
   background-color: rgba(233,244,199, 0.67);
   height: 900px;
   border-radius: 50px;
@@ -2992,7 +3003,6 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 50px;
 }
 
 #footer  .logo {
@@ -3000,6 +3010,43 @@ body {
   margin: auto;
 } 
 
+.taive-popup {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 152px;
+  height: 300px;
+  border: 5px solid #5CCB2A;
+  background-color: #E9F4C7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.taive-popup h5 {
+  margin-bottom: 10px;
+  font-family: Montserrat-Black;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #004403;
+}
+
+.taive-popup .qrcode {
+  margin-bottom: 15px;
+}
+
+.taive-popup .appstore {
+  margin-top: 5px;
+}
+
+.taive-popup a:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
 
 
 

@@ -2069,7 +2069,8 @@ body {
 .gioithieu {
   justify-content: space-between;
   align-items: center;
-  margin: 0 165px;
+  margin: 0 auto;
+  width: 75%;
   padding-top: 80px;
 }
 
@@ -2233,7 +2234,7 @@ body {
 }
 
 .thuvien .members {
-  max-width: 1150px;
+  max-width: 850px;
   width: 100%;
   position: relative;
 }

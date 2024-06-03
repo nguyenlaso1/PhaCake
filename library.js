@@ -5,6 +5,6 @@ const firstCardWidth = document.querySelector(".thuvien .card").offsetWidth;
 
 arrowBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-        carousel.scrollLeft += btn.id === "left" ? - 230 : 230;
+        carousel.scrollLeft += btn.id === "left" ? - 170 : 170;
     })
 })

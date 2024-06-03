@@ -2219,7 +2219,7 @@ body {
 }
 
 .thuvien .carousel .card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 1s;
   border-color: #9e9514;
 }
@@ -2234,7 +2234,7 @@ body {
 }
 
 .thuvien .members {
-  max-width: 855px;
+  max-width: 1150px;
   width: 100%;
   position: relative;
 }
